@@ -1,19 +1,13 @@
 package estruturadedados;
 
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Stack;
+
 public class exercicio2 {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 
-
-
-		import java.util.Iterator;
-		import java.util.Scanner;
-		import java.util.Stack;
-
-
-		public class exercicio2 {
-
-			public static void main(String[] args) {
 				
 				Scanner leia = new Scanner(System.in);
 				Stack<String> pilhaLivros = new Stack<String>();
@@ -86,4 +80,4 @@ public class exercicio2 {
 
 			}
 
-		}
+}
